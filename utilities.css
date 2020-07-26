@@ -1,0 +1,22 @@
+/* Text colors */
+.color-primary {
+    color: #28a745;
+}
+
+.color-secondary {
+    color: #212121;
+}
+
+/* Bg colors */
+.bg-primary {
+    background-color: #28a745;
+}
+
+.bg-secondary {
+    background-color: #212121;
+}
+
+.bg-dark {
+    background-color: #333;
+    color: #fff;
+}

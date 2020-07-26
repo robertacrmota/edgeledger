@@ -1,0 +1,42 @@
+* {
+    font-family: 'Noto Sans JP', sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+#navbar {
+    position: fixed;
+    min-width: 100vw;
+    padding: 15px 0;
+    opacity: .8;
+}
+
+.flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 95vw;
+    margin: auto;
+}
+
+#navbar #logo {
+    font-size: 1.5rem;
+}
+
+#navbar ul {
+    display: flex;
+    list-style: none;
+}
+
+#navbar ul li a {
+    text-decoration: none;
+    padding: 5px 20px;
+    font-weight: 300;
+    color: #fff;
+}
+
+#navbar ul li a:hover,
+#navbar ul li a.current {
+    border-bottom: 1.5px solid #28a745;
+}
