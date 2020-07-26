@@ -5,6 +5,10 @@
     margin: 0;
 }
 
+/* ------------------------------------------------------------- */
+/*   Header                                                      */
+/* ------------------------------------------------------------- */
+
 #navbar {
     position: fixed;
     min-width: 100vw;
@@ -12,12 +16,10 @@
     opacity: .8;
 }
 
-.flex-container {
+#navbar > div {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    max-width: 95vw;
-    margin: auto;
 }
 
 #navbar #logo {
@@ -38,5 +40,30 @@
 
 #navbar ul li a:hover,
 #navbar ul li a.current {
-    border-bottom: 1.5px solid #28a745;
+    border-bottom: 1.5px solid #82c91e;
+}
+
+#hero {
+    background: url('./images/home/showcase.jpg') no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+    color: #fff;
+}
+
+#hero > div {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero h1 {
+    font-weight: 300;
+    font-size: 3rem;
+}
+
+#hero p {
+    font-size: 1.2rem;
+    padding: 20px 0;
 }
