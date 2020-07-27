@@ -24,7 +24,6 @@
 /* ------------------------------------------------------------- */
 /*   Buttons                                                     */
 /* ------------------------------------------------------------- */
-
 .btn {
     font-weight: 300;
     font-size: .8rem;
@@ -49,8 +48,45 @@
 /* ------------------------------------------------------------- */
 /*   Containers                                                  */
 /* ------------------------------------------------------------- */
-
 .container {
     max-width: 95vw;
     margin: auto;
+}
+
+/* ------------------------------------------------------------- */
+/*   Flex                                                        */
+/* ------------------------------------------------------------- */
+.flex-columns .row {
+    display: flex;
+    flex-direction: row;
+    padding: 50px 0;
+}
+
+.flex-columns .column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0  15px;
+}
+
+.flex-columns .column h2 {
+    font-size: 1.1rem;
+    padding: 15px 0;
+}
+
+.flex-columns .column .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;
+    background-color: #82c91e;
+    color: #efefef;
+}
+
+.flex-columns .column p {
+    font-weight: 100;
 }
