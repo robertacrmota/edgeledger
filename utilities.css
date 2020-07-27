@@ -13,7 +13,7 @@
 }
 
 .bg-secondary {
-    background-color: #495057;
+    background-color: #efefef;
 }
 
 .bg-dark {
@@ -45,6 +45,16 @@
     background-color: rgba(130, 201, 30, .9);
 }
 
+.btn-outline-primary {
+    background: transparent;
+    border: 1px solid #82c91e;
+    color: #82c91e
+}
+
+.btn-outline-primary:hover {
+    background-color: rgba(130, 201, 30, .1);
+}
+
 .btn-outline-secondary {
     background: transparent;
     border: 1px solid #efefef;
@@ -61,11 +71,13 @@
 .container {
     max-width: 95vw;
     margin: auto;
+    padding: 0 15px;
 }
 
 /* ------------------------------------------------------------- */
 /*   Flex                                                        */
 /* ------------------------------------------------------------- */
+
 .flex-columns .row {
     display: flex;
     flex-direction: row;
@@ -105,6 +117,10 @@
     display: flex;
     flex-direction: row;
     padding: 50px 0;
+}
+
+.flex-reverse .row {
+    flex-direction: row-reverse;
 }
 
 .flex-columns-2 .column {
