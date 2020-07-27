@@ -4,7 +4,7 @@
 }
 
 .color-secondary {
-    color: #495057;
+    color: #efefef;
 }
 
 /* Bg colors */
@@ -42,7 +42,17 @@
 }
 
 .btn-primary:hover {
-    opacity: .9;
+    background-color: rgba(130, 201, 30, .9);
+}
+
+.btn-outline-secondary {
+    background: transparent;
+    border: 1px solid #efefef;
+    color: #efefef
+}
+
+.btn-outline-secondary:hover {
+    background-color: rgba(239, 239, 239, .1)
 }
 
 /* ------------------------------------------------------------- */
@@ -89,4 +99,49 @@
 
 .flex-columns .column p {
     font-weight: 100;
+}
+
+.flex-columns-2 .row {
+    display: flex;
+    flex-direction: row;
+    padding: 50px 0;
+}
+
+.flex-columns-2 .column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: left;
+    flex: 1;
+    max-width: 50%;
+}
+
+.flex-columns-2 .column-img img {
+    background-repeat: no-repeat;
+    background-position: center center;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;   
+}
+
+.flex-columns-2 .column-text {
+    flex-basis: 1;
+    padding: 50px;
+}
+
+.flex-columns-2 .column-text h4  {
+    font-size: .9rem;
+    margin-bottom: 10px;
+}
+
+.flex-columns-2 .column-text h1  {
+    font-size: 1.8rem;
+    font-weight: 100;
+    margin-bottom: 30px;
+}
+
+.flex-columns-2 .column-text p  {
+    font-weight: 100;
+    margin-bottom: 10px;
 }
