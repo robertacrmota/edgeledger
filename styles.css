@@ -87,6 +87,25 @@ header::before {
 }
 
 /* ------------------------------------------------------------- */
+/*   Section Cases                                                      */
+/* ------------------------------------------------------------- */
+
+.section-heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+
+}
+
+.section-heading h1 {
+    font-weight: 100;
+    font-size: 2rem;
+    padding: 20px;
+}
+
+/* ------------------------------------------------------------- */
 /*   Footer                                                      */
 /* ------------------------------------------------------------- */
 

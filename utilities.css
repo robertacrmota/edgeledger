@@ -161,3 +161,23 @@
     font-weight: 100;
     margin-bottom: 10px;
 }
+
+.flex-grid .row {
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    padding: 2px 0;
+}
+
+.flex-grid .row > * {
+    height: 100%;
+    width: 25%;
+    flex: 1;
+    padding: 0 2px;
+    object-fit: cover;
+}
+
+.flex-grid .row > *:hover {
+    cursor: pointer;
+    opacity: .8;
+}
