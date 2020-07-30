@@ -22,13 +22,16 @@ header::before {
 }
 
 #navbar {
+    z-index: 1;
     position: fixed;
     min-width: 100vw;
     padding: 15px 0;
-    opacity: .8;
+    color: #fff;
+    opacity: .9;   
+    transition: .2s ease-out;
 }
 
-#navbar > div {
+#navbar .container {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -127,7 +130,7 @@ section {
 }
 
 /* ------------------------------------------------------------- */
-/*   Section Request                                                */
+/*   Section Request                                             */
 /* ------------------------------------------------------------- */
 
 #request .row .column form {

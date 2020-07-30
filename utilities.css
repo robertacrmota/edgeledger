@@ -8,6 +8,10 @@
 }
 
 /* Bg colors */
+.bg-transparent {
+    background-color: transparent;
+}
+
 .bg-primary {
     background-color: #82c91e;
 }
@@ -18,7 +22,6 @@
 
 .bg-dark {
     background-color: #212529;
-    color: #fff;
 }
 
 /* ------------------------------------------------------------- */
