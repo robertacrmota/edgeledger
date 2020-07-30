@@ -1,0 +1,74 @@
+/* ------------------------------------------------------------- */
+/*   Flex                                                        */
+/* ------------------------------------------------------------- */
+
+.flex-columns .row {
+    flex-direction: column;
+}
+
+.flex-columns .column {
+    padding: 15px  0;
+}
+
+.flex-columns-2 .row {
+    flex-direction: column;
+}
+
+.flex-columns-2 .column {
+    max-width: 100%;
+}
+
+.flex-grid .row {
+    flex-direction: column;
+    height: 100%;
+    padding: 0;
+}
+
+.flex-grid .row > * {
+    width: 100%;
+    height: 100%;
+    padding: 2px 0;
+}
+
+/* ------------------------------------------------------------- */
+/*   Header                                                      */
+/* ------------------------------------------------------------- */
+
+#navbar > div {
+    flex-direction: column;
+}
+
+#navbar #logo {
+    padding-bottom: 30px;
+}
+
+#navbar ul {
+    justify-content: space-between;
+    width: 100%;
+}
+
+#navbar ul li a {
+    padding: 5px 10px;
+}
+
+#hero h1 {
+    line-height: 1.2;
+}
+
+/* ------------------------------------------------------------- */
+/*   Section Cases                                               */
+/* ------------------------------------------------------------- */
+
+.section-heading {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* ------------------------------------------------------------- */
+/*   Section Team                                                */
+/* ------------------------------------------------------------- */
+
+#team .flex-columns .circle {
+    width: 150px;
+    height: 150px;
+}
