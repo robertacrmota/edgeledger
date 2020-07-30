@@ -71,7 +71,8 @@
 .container {
     max-width: 95vw;
     margin: auto;
-    padding: 0 15px;
+    padding-right: 15px;
+    padding-left: 15px;
 }
 
 /* ------------------------------------------------------------- */
@@ -81,7 +82,8 @@
 .flex-columns .row {
     display: flex;
     flex-direction: row;
-    padding: 50px 0;
+    /* justify-content: space-between; */
+    padding: 2px 0;
 }
 
 .flex-columns .column {
@@ -109,6 +111,13 @@
     color: #efefef;
 }
 
+.flex-columns .column img {
+    width: 100%;
+    height: 100%;
+    background-position: center center;
+    object-fit: cover;
+}
+
 .flex-columns .column p {
     font-weight: 100;
 }
@@ -116,7 +125,6 @@
 .flex-columns-2 .row {
     display: flex;
     flex-direction: row;
-    padding: 50px 0;
 }
 
 .flex-reverse .row {

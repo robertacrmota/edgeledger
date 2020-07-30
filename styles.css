@@ -87,22 +87,39 @@ header::before {
 }
 
 /* ------------------------------------------------------------- */
-/*   Section Cases                                                      */
+/*   Section Cases                                               */
 /* ------------------------------------------------------------- */
+
+section {
+    padding-top: 50px;
+}
 
 .section-heading {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 50px 0;
-
+    padding-bottom: 50px;
 }
 
 .section-heading h1 {
     font-weight: 100;
     font-size: 2rem;
     padding: 20px;
+}
+
+/* ------------------------------------------------------------- */
+/*   Section Team                                                */
+/* ------------------------------------------------------------- */
+#team .flex-columns .row {
+    justify-content: center;
+}
+
+#team .flex-columns .circle {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
 }
 
 /* ------------------------------------------------------------- */
